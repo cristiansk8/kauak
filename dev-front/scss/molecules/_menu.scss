@@ -1,0 +1,39 @@
+.main-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  &-item {
+    width: 100%;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    @include from(l) {
+      text-align: right;
+    }
+
+    li {
+      display: block;
+
+      @include from(l) {
+        display: inline-block;
+      }
+
+      a {
+        display: block;
+        color: $white;
+        @include bodyText;
+        padding: rem(6px) rem(16px);
+
+        @include from(l) {
+          @include font(26px);
+        }
+      }
+    }
+  }
+}

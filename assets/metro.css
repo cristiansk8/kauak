@@ -1,0 +1,410 @@
+@font-face {
+  font-family: "bebas";
+  src: url("https://woocommerce-375621-1394302.cloudwaysapps.com/wp-content/themes/depura-commerce/assets/fonts/BebasNeue.woff");
+}
+@font-face {
+  font-family: "releway";
+  src: url("https://woocommerce-375621-1394302.cloudwaysapps.com/wp-content/themes/depura-commerce/assets/fonts/Raleway-Regular.woff");
+}
+#page{
+  background: #f2f2f2;
+}
+body.single-product div#primary .product.type-product, body.storefront-full-width-content div#primary .product.type-product {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    background: #fff;
+}
+
+body{
+	font-size:20px;
+}
+.redes-foot{
+	display:flex;
+	justify-content:center;
+}
+.facebook-foot a {
+    background-image: url(/wp-content/themes/depura-commerce/assets/svg/iconofb.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-indent: -999999px;
+    overflow: hidden;
+    background-color: #000000;
+	width:4rem;
+	    display: block;
+    width: 4rem;
+    height: 5.5rem;
+    position: relative;
+}
+.instagram-foot a {
+    background-image: url(/wp-content/themes/depura-commerce/assets/svg/instagram.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-indent: -999999px;
+    overflow: hidden;
+    background-color: #000000;
+	width:4rem;
+	    display: block;
+		width: 8.5rem;
+    height: 5.5rem;
+    position: relative;
+}
+.linked-foot a {
+    background-image: url(/wp-content/themes/depura-commerce/assets/svg/linkedin.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-indent: -999999px;
+    overflow: hidden;
+    background-color: #000000;
+	width:4rem;
+	    display: block;
+		width: 8.5rem;
+    height: 5.5rem;
+    position: relative;
+}
+.site-header .navbar-collapse ul.navbar-nav>li.active a {
+    color: #fff;
+    font-weight:bold;
+}
+.site-header .navbar-collapse ul.navbar-nav>li.active a:after {
+    content: "";
+    width: 80%;
+    height: .6rem;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    top: 68px
+}
+.menu-social--social li.cc a {
+    background-image: url(/wp-content/themes/depura-commerce/assets/svg/carrito.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-indent: -999999px;
+    overflow: hidden;
+    background-color: #000000;
+}
+.menu-social--social li.us a {
+    background-image: url(/wp-content/themes/depura-commerce/assets/svg/usuario.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-indent: -999999px;
+    overflow: hidden;
+    background-color: #000000;
+	width:4rem;
+}
+.menu-social--social li a {
+    display: block;
+    width: 5.5rem;
+    height: 3.5rem;
+    background-color: #5d5d5d;
+    border-radius: 100%;
+    position: relative;
+}
+.site-header .navbar-collapse ul.navbar-nav>li>a {
+    font-family: "releway";
+
+}
+.menu-categories{
+	display:none;
+}
+
+#hacemos .descripcion {
+	padding: 0 3rem;
+}
+body.storefront-full-width-content .site-main ul.products li.product a.add_to_cart_button {
+    margin: 1.2rem auto;
+    background-color: #49C25B;
+	color: #fff;
+	border-radius:20px;
+}
+.product_type_simple{
+	  height:47px;
+    background-color: #49C25B;
+	color: #fff;
+	border-radius:20px;
+}
+body.single-product div#primary .product.type-product .summary.entry-summary button.alt, body.storefront-full-width-content div#primary .product.type-product .summary.entry-summary button.alt {
+    display: inline-block;
+    border-radius: 0;
+    background-color: #49C25B;
+    color: #fff;
+    font-family: Muli Black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+body.single-product div#primary .product.type-product, body.storefront-full-width-content div#primary .product.type-product {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+	    border-radius: 20px;
+}
+#woocommerce-catalog_custom_button {
+    border-radius: 20px;
+    background-color: #49c25b;
+    height: 46px;
+}
+.destacados{
+	background-image:url(https://woocommerce-375621-1394302.cloudwaysapps.com/wp-content/uploads/2020/08/fondo-p-destacados.png);
+	width: 100% !important;
+    padding: 0 5%;
+	background-size: cover;
+}
+#hacemos .hacemos__wrapper-item img{
+	margin:auto;
+}
+
+#hacemos header.site-main__header h2 {
+text-align:center;
+   	font-family:'bebas' !important;
+	font-size: 4.8rem !important;
+	color:#0d3891;
+
+
+}
+#hacemos header .site-main__header h2:after {
+    content: "";
+    width: 12rem;
+    height: .5rem;
+    background-color: #0d3891;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+#primary .site-main header.site-main__header h2 {
+		text-align:center;
+    color: #fff;
+    font-family: bebas;
+    text-transform: uppercase;
+	font-size: 4.8rem !important;
+}
+#main .site-main header.site-main__header h2 {
+    color: white;
+    font-family: Muli Black;
+    text-transform: uppercase;
+
+}
+#soluciones .site-main header.site-main__header h2 {
+    color: white;
+    font-family: bebas;
+    text-transform: uppercase;
+
+}
+.destacados .site-main header.site-main__header:after {
+    content: "";
+    width: 12rem;
+    height: .5rem;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+
+.home #content {
+    background-color: #fff;
+}
+
+
+.hacemos__wrapper-item p{
+	font-weight:bold;
+	padding: 10px 0;
+}
+
+body.single-product div#primary .product.type-product .summary.entry-summary .product_title, body.storefront-full-width-content div#primary .product.type-product .summary.entry-summary .product_title {
+    color: #000000;
+    font-family: Muli Black;
+    margin-bottom: 0;
+}
+ul.products li.product h2, ul.products li.product h3, ul.products li.product .woocommerce-loop-product__title, ul.products li.product .wc-block-grid__product-title, ul.products .wc-block-grid__product h2, ul.products .wc-block-grid__product h3, ul.products .wc-block-grid__product .woocommerce-loop-product__title, ul.products .wc-block-grid__product .wc-block-grid__product-title, .wc-block-grid__products li.product h2, .wc-block-grid__products li.product h3, .wc-block-grid__products li.product .woocommerce-loop-product__title, .wc-block-grid__products li.product .wc-block-grid__product-title, .wc-block-grid__products .wc-block-grid__product h2, .wc-block-grid__products .wc-block-grid__product h3, .wc-block-grid__products .wc-block-grid__product .woocommerce-loop-product__title, .wc-block-grid__products .wc-block-grid__product .wc-block-grid__product-title {
+    font-weight: 400;
+    margin-bottom: .5407911001em;
+    font-size: 2rem;
+    color: #000000;
+    font-family: Muli Black;
+    text-align: center;
+}
+.woocommerce-tabs ul.tabs li.active a, ul.products li.product .price, .onsale, .wc-block-grid__product-onsale, .widget_search form:before, .widget_product_search form:before {
+    color: #6d6d6d;
+    font-weight: 400;
+    margin-bottom: .5407911001em;
+    font-size: 2rem;
+    color: #0d3891;
+    font-family: Muli Black;
+    text-align: center;
+}
+	.site-main ul.products.columns-4 li.product {
+    margin-right: 3.8%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+@media (min-width: 768px){
+	.site-main ul.products.columns-4 li.product {
+    width: 22.05%;
+    margin-right: 3.8%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+	.site-header .navbar .row-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0rem 3.5rem;
+}
+	body.storefront-full-width-content header.site-main__header h2 {
+
+   	font-family:'bebas' !important;
+	font-size: 6.8rem !important;
+
+}
+	#hacemos .descripcion {
+	padding: 0 22rem;
+}
+	.site-header .navbar-collapse ul.navbar-nav>li {
+    display: inline-block;
+    margin: 0 11px;
+}
+.single-product .site .site-content .container-fluid .content-area {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+}
+}
+
+	.page-id-6400 #page #content  .container-fluid #secondary {
+  display:none;
+}
+	.page-id-6400 #page #content  .container-fluid .content-area {
+    width: 100% !important;
+    float: right;
+    margin-right: 0;
+		background-image:url(https://woocommerce-375621-1394302.cloudwaysapps.com/wp-content/uploads/2020/08/fondo-contacto-1.jpg);
+		background-position: center;
+    background-size: cover;
+}
+.page-id-6400 #page #content  .container-fluid{
+	padding-left:0px;
+	padding-right:0px;
+}
+.page-id-6400 .storefront-breadcrumb{
+	display:none;
+}
+.wpcf7-form {
+    max-width: 1242px;
+    margin: inherit;
+    max-width: 40rem;
+}
+.soluciones__wrapper{
+	display:flex;
+	    flex-wrap: wrap;
+	justify-content:center;
+}
+.soluciones2__wrapper{
+	display:flex;
+	    flex-wrap: wrap;
+	justify-content:center;
+}
+.soluciones__wrapper-item{
+	width:33%;
+	padding:15px;
+}
+.soluciones__wrapper-item h3{
+	color:#0d3891;
+	font-weight:bold;
+	text-align:center;
+	font-family:"releway"
+}
+.hentry .entry-content a:not(.button):not(.components-button) {
+    background-color: #0d3891;
+    color: #fff;
+    border-radius: 14px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    background: #f2f2f2;
+    padding: 15px;
+}
+
+.tagcloud{
+	display:inline-grid;
+}
+.widget-area .widget a:not(.button):not(.components-button) {
+    font-weight: 600;
+    text-decoration: underline;
+    line-height: 1.41575em;
+    font-size: .875em !important;
+	  margin-bottom: 1em;
+	    text-decoration: none;
+}
+.widget_product_categories ul li{
+	    padding-left: 0;
+}
+.widget_product_categories ul li:before {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    line-height: inherit;
+    vertical-align: baseline;
+    content: "";
+}
+
+.post-type-archive-product #page{
+	background-color:#fff;
+}
+.site-main ul.products.columns-3 li.product {
+    width: 29.4117647059%;
+    float: left;
+    margin-right: 5.8823529412%;
+    box-shadow: 1px 1px 62px 3px #e7e4e4;
+    -moz-box-shadow: 1px 1px 62px 3px #e7e4e4;
+    -webkit-box-shadow: 1px 1px 18px 3px #e7e4e4;
+}
+body.single-product div#primary .product.type-product, body.storefront-full-width-content div#primary .product.type-product {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 0;
+	padding:15px;
+}
+.hentry .entry-content a:not(.button):not(.components-button) {
+		background-color:#f2f2f2;
+    color: #039;
+    border-radius: 14px;
+}
+footer img{
+	margin: -20px 0 20px 0;
+}

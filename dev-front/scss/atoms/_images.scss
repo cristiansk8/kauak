@@ -1,0 +1,33 @@
+.image {
+  &-ar {
+    position: relative;
+
+    img {
+      object-fit: cover;
+    }
+
+    &--11 {
+      @include fluid-aspect(1 1, img);
+    }
+
+    &--23 {
+      @include fluid-aspect(2 3, img);
+    }
+
+    &--34 {
+      @include fluid-aspect(3 4, img);
+    }
+
+    &--32 {
+      @include fluid-aspect(3 2, img);
+    }
+
+    &--43 {
+      @include fluid-aspect(4 3, img);
+    }
+
+    &--169 {
+      @include fluid-aspect(16 9, img);
+    }
+  }
+}

@@ -1,0 +1,150 @@
+.projects {
+
+  &--carousel {
+    margin: 0 rem(-10px);
+
+    .slick-slide {
+
+      .projects__image {
+
+        &::after {
+          background-color: $secondary;
+        }
+      }
+
+      &:nth-child(2n) {
+
+        .projects__image {
+
+          &::after {
+            background-color: $yellow;
+          }
+        }
+      }
+
+      &:nth-child(3n) {
+
+        .projects__image {
+
+          &::after {
+            background-color: $primary;
+          }
+        }
+      }
+    }
+  }
+
+  &--home {
+    padding-bottom: rem(30px);
+
+    @include from(l) {
+      padding-bottom: rem(60px);
+    }
+  }
+
+  &--grid {
+    padding: rem(100px) 0 rem(30px);
+
+    @include from(l) {
+      padding: rem(220px) 0 rem(65px);
+    }
+  }
+
+  &__content {
+    padding-top: rem(130px);
+    padding-bottom: rem(30px);
+
+    @include from(l) {
+      padding-top: rem(200px);
+      padding-bottom: rem(60px);
+    }
+  }
+
+  &__slider {
+    padding: 0 rem(30px);
+
+    .slick-prev {
+      left: 0;
+    }
+
+    .slick-next {
+      right: 0;
+    }
+  }
+
+  &__wrapper {
+    .projects__image {
+
+      &::after {
+        background-color: $secondary;
+      }
+    }
+
+    &:nth-child(2n) {
+
+      .projects__image {
+
+        &::after {
+          background-color: $yellow;
+        }
+      }
+    }
+
+    &:nth-child(3n) {
+
+      .projects__image {
+
+        &::after {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+
+  &__item {
+    overflow: hidden;
+    position: relative;
+
+    &--carousel {
+
+      &:hover {
+
+        .projects__image {
+
+          &::after {
+            opacity: 1;
+          }
+        }
+      }
+
+      .projects__image {
+        margin: 0 rem(10px);
+      }
+    }
+  }
+
+  &__image {
+
+    &::after {
+      content: '';
+      display: block;
+      @include coverAbsolute(1);
+      transition: all .3s;
+      opacity: .6;
+    }
+  }
+
+  &__caption {
+    @include coverAbsolute(2);
+
+    a {
+      display: block;
+      text-align: center;
+      @include center('both');
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

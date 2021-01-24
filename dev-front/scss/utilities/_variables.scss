@@ -1,0 +1,67 @@
+// Colors
+$kmostaza: #e8c755;
+$knaraja: #e4753f;
+$kfucsia: #e84d73;
+$kverde: #1fcc80;
+$kazul: #2fa1e3;
+$kmorado: #8f66e8;
+$black: #000000;
+$white: #ffffff;
+$primary: #532c88;
+$primary-dark: #261649;
+$secondary: #1ee492;
+$yellow: #FFD54F;
+$gray-active: #1e1e1d;
+$gray-lighter: #f1f1f1;
+$gray-text: #8898aa;
+$gray-disabled: #4d4d4d;
+$text-body: #2d2d30;
+$gray-lt: #EAEAED;
+$gray-29: #292929;
+$gray-53: #5E5E5E;
+$gray-ac: #ACA39A;
+$gray-92: #929292;
+$gray-c6: #C6C6C6;
+$gray-75: #757575;
+$gray-6e: #6E6E6E;
+$gray-50: #505050;
+$gray-df: #DFDFDF;
+
+
+// Font weights
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+// Breakpoints
+
+// font families
+$primary-font: 'Source Sans Pro', sans-serif;
+$secondary-font: 'ITC Avant Garde Gothic LT', sans-serif;
+$tertiary-font: 'ITC Avant Garde Gothic LT', sans-serif;
+
+$breakpoints-min: ('s': 576px,
+  'm': 768px,
+  'l': 992px,
+  'xl': 1470px,
+);
+
+$breakpoints-max: ('xs': map-get($breakpoints-min, 's') - 1px,
+  's': map-get($breakpoints-min, 'm') - 1px,
+  'm': map-get($breakpoints-min, 'l') - 1px,
+  'l': map-get($breakpoints-min, 'xl') - 1px,
+);
+
+// Layout
+
+$grid-columns: 6;
+$grid-columns-m: 12;
+
+$grid-min-offset: 40px;
+$grid-gutter: 30px;
+$grid-gutter-xl: 50px;
+
+$container-max-widths: ('s': 540px,
+  'm': 720px,
+  'l': 960px,
+  'xl': 1320px,
+);

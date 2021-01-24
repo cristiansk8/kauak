@@ -1,0 +1,41 @@
+.main-footer {
+  background-color: $primary-dark;
+  padding-top: rem(30px);
+  padding-bottom: rem(10px);
+
+  @include from(l) {
+    padding-top: rem(63px);
+    padding-bottom: rem(13px);
+  }
+
+  .menu {
+    padding-left: 0;
+
+    a {
+      color: $white;
+    }
+  }
+
+  &__right {
+
+    @include from(l) {
+      text-align: right;
+    }
+
+    .nav_menu-2 {
+      li {
+        display: inline-block;
+      }
+    }
+
+    .nav_menu-3 {
+      li {
+        display: block;
+      }
+    }
+  }
+
+  &__bottom {
+    text-align: center;
+  }
+}

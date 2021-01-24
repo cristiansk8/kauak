@@ -1,0 +1,86 @@
+#primary{
+  width: 100%;
+}
+.hero-banner {
+
+  &--home {
+    text-align: center;
+  }
+  &--contact {
+    background: linear-gradient(90deg, rgba(38,22,73,1) 0%, rgba(58,35,108,1) 44%, rgba(38,22,73,1) 100%);
+    padding-bottom:100px;
+    text-align: center;
+    .container-fluid{
+      .hero-banner__caption{
+        h2{
+          font-size: 4rem;
+        }
+      }
+    }
+
+  }
+
+  &--dark {
+    @include brand-gradient;
+    padding-bottom: rem(20px);
+    text-align: center;
+
+    @include from(l) {
+      padding-bottom: rem(50px);
+    }
+
+  }
+
+  &--taxonomy {
+    padding-top: rem(130px);
+    padding-bottom: rem(30px);
+
+    @include from(l) {
+      padding-top: rem(200px);
+      padding-bottom: rem(60px);
+    }
+  }
+
+  &__icon-top,
+  &__icon-bottom {
+    text-align: center;
+
+    img {
+      display: inline-block;
+      max-width: rem(40px);
+
+      @include from(l) {
+        max-width: rem(70px);
+      }
+    }
+  }
+
+  &__image-bg {
+    @include bgcover;
+    min-height: 100vh;
+  }
+
+  &__video {
+    @include coverAbsolute(-1);
+  }
+
+  &__caption {
+    width: 90%;
+    max-width: rem(640px);
+    padding-top: 20vh;
+    margin: 0 auto;
+  }
+
+  &__thumbnail {
+    padding-top: rem(200px);
+
+    @include from(l) {
+      padding-top: rem(300px);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

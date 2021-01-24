@@ -1,0 +1,89 @@
+.wpcf7 {
+	form {
+		input {
+			&[type="text"],
+			&[type="email"],
+			&[type="tel"],
+			&[type="date"],
+			&[type="number"] {
+				display: block;
+				border-radius: 0;
+				width: 100%;
+				height: auto;
+				border: rem(1px) solid $black;
+				padding: rem(10px);
+				@include placeholder {
+					color: $primary;
+				}
+			}
+
+			&[type="submit"] {
+
+		}
+		select {
+			display: block;
+			color: $primary;
+			border-radius: 0;
+			width: 100%;
+			height: auto;
+			border: rem(1px) solid $primary;
+			background-color: $primary;
+			padding: rem(10px);
+		}
+		textarea {
+			display: block;
+			color: $primary;
+			border-radius: 0;
+			width: 100%;
+			border: rem(1px) solid $primary;
+			background-color: $primary;
+			padding: rem(10px);
+			@include placeholder {
+				color: $primary;
+			}
+		}
+	}
+}
+
+// Form layout
+.form {
+	&-wrap {
+		@include from(l) {
+			display: flex;
+			flex-wrap: wrap;
+			text-align: left;
+		}
+	}
+
+	&-col {
+		padding: rem(20px);
+		@include from(l) {
+			width: 33.3%;
+			padding: inherit;
+			padding-right: rem(15px);
+		}
+
+		&:last-child {
+			@include from(l) {
+				padding-right: 0;
+			}
+		}
+
+		br {
+			display: none;
+		}
+		span {
+			&.wpcf7-form-control-wrap {
+				display: block;
+				margin-bottom: rem(20px);
+			}
+		}
+	}
+}
+
+.disclaimer {
+	padding: rem(25px) 0;
+	margin: rem(20px) auto;
+	background-color: $primary;
+}
+}

@@ -1,0 +1,10 @@
+.news {
+
+  &--related {
+    padding-bottom: rem(30px);
+
+    @include from(l) {
+      padding-bottom: rem(60px);
+    }
+  }
+}

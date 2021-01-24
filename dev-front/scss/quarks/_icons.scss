@@ -1,0 +1,35 @@
+.fb {
+  a {
+    display: block;
+    width: rem(50px);
+    height: rem(50px);
+    @include iconBg('../images/icons/fb.svg');
+  }
+}
+
+.yt {
+  a {
+    display: block;
+    width: rem(50px);
+    height: rem(50px);
+    @include iconBg('../images/icons/yt.svg');
+  }
+}
+
+.ins {
+  a {
+    display: block;
+    width: rem(50px);
+    height: rem(50px);
+    @include iconBg('../images/icons/ins.svg');
+  }
+}
+
+.in {
+  a {
+    display: block;
+    width: rem(50px);
+    height: rem(50px);
+    @include iconBg('../images/icons/ins.svg');
+  }
+}

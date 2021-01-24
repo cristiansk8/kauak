@@ -1,0 +1,29 @@
+.brand-image {
+  height: rem(25px);
+  width: rem(133px);
+  @include iconBg('../images/brand/logo.svg');
+
+  @include from(l) {
+    margin: rem(22px) 0;
+    width: rem(240px);
+    height: rem(47px);
+    display: inline-block;
+  }
+}
+
+.navbar--sticky,
+.navbar--open {
+
+  .brand-image {
+    @include iconBg('../images/brand/logo-2.svg');
+  }
+}
+
+.page-template-template-portfolio,
+.tax-division,
+.single {
+
+  .brand-image {
+    @include iconBg('../images/brand/logo-2.svg');
+  }
+}

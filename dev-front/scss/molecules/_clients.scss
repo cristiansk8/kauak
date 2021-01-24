@@ -1,0 +1,31 @@
+.clients {
+
+  &__list {
+    padding: rem(20px) 0;
+    text-align: center;
+  }
+
+  &__item {
+    display: inline-block;
+    width: 50%;
+
+    @include from(l) {
+      width: 20%;
+    }
+
+    img {
+      display: inline-block;
+      max-width: 80%;
+      height: auto;
+    }
+  }
+
+  &__bottom {
+    text-align: center;
+    padding-bottom: 30px;
+
+    @include from(l) {
+      padding-bottom: rem(63px);
+    }
+  }
+}

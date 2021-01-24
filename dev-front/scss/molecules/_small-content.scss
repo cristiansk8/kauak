@@ -1,0 +1,9 @@
+.small-content {
+  padding-top: rem(16px);
+  padding-bottom: rem(16px);
+
+  @include from(l) {
+    padding-top: rem(30px);
+    padding-bottom: rem(30px);
+  }
+}

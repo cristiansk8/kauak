@@ -1,0 +1,67 @@
+#contactCards{
+  .container-fluid{
+    .row{
+      .col-md-6{
+        .featured-icons{
+            max-width: rem(670px);
+            padding: rem(30px) rem(20px);
+
+            @include from(l) {
+              padding: rem(40px) rem(73px) rem(100px);
+            }
+            &__caption{
+              display: flex;
+              &-info{
+                padding: 20px 5px;
+              }
+            }
+        }
+      }
+    }
+  }
+}
+.featured-cards {
+  justify-content: center;
+
+  &__item {
+
+    &:first-child {
+
+      .featured-cards__caption {
+
+        @include from(l) {
+          margin-left: auto;
+        }
+      }
+    }
+
+    &:last-child {
+      background-color: $gray-lighter;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: inline-block;
+    }
+  }
+
+  &__icon {
+    text-align: center;
+  }
+
+  &__caption {
+    max-width: rem(670px);
+    padding: rem(30px) rem(20px);
+
+    @include from(l) {
+      padding: rem(40px) rem(73px) rem(100px);
+    }
+
+    .subtitle,
+    .headline {
+      display: block;
+      text-align: center;
+    }
+  }
+}

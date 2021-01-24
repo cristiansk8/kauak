@@ -1,0 +1,278 @@
+.body {
+  color: $text-body;
+  @include bodyLt;
+  @include font(16px);
+
+  @include from(m) {
+    @include font(18px);
+  }
+
+
+  &--2 {
+    @include font(18px);
+
+    @include from(m) {
+      @include font(20px);
+    }
+  }
+
+  &--md {
+    @include bodyMd;
+  }
+
+  &--bd {
+    @include bodyBd;
+  }
+
+  &--secondary {
+    @include secondaryText;
+
+    &--bd {
+      @include secondaryMd;
+    }
+
+    &--bd {
+      @include secondaryBd;
+    }
+  }
+
+  &--gray {
+    color: $gray-92;
+  }
+
+  &--s {
+    @include font(14px);
+  }
+
+  &--m {
+    @include font(18px);
+  }
+
+  &--black {
+    color: $black;
+  }
+
+  &--purple {
+    color: $primary;
+  }
+
+  &--green {
+    color: $secondary;
+  }
+
+  &--white {
+    color:$white;
+  }
+
+  &--gray {
+    color: $gray-text;
+  }
+
+  &--left {
+    text-align: left;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--right {
+    text-align: right;
+  }
+
+  &--italic {
+    font-style: italic;
+  }
+}
+
+.headline {
+  color: $primary;
+  @include bodyBd;
+  @include font(24px);
+
+  @include from(l) {
+    @include font(40px);
+  }
+
+  &--1 {
+    @include font(120px);
+
+    @include from(m) {
+      @include font(150px);
+    }
+
+    @include from(l) {
+      @include font(260px);
+    }
+  }
+
+  &--2 {
+    @include font(50px);
+
+    @include from(m) {
+      @include font(80px);
+    }
+
+    @include from(l) {
+      @include font(115px);
+    }
+  }
+
+  &--3 {
+    @include font(30px);
+
+    @include from(l) {
+      @include font(35px);
+    }
+  }
+
+  &--4 {
+    @include font(20px);
+
+    @include from(m) {
+      @include font(25px);
+    }
+
+    @include from(l) {
+      @include font(30px);
+    }
+  }
+
+  &--5 {
+    @include font(16px);
+
+    @include from(m) {
+      @include font(20px);
+    }
+
+    @include from(l) {
+      @include font(30px);
+    }
+  }
+
+  &--md {
+    @include bodyMd;
+  }
+
+  &--secondary {
+    @include secondaryText;
+
+    &--bd {
+      @include secondaryMd;
+    }
+
+    &--bd {
+      @include secondaryBd;
+    }
+  }
+
+  &--black {
+    color: $black;
+  }
+
+  &--purple {
+    color: $primary;
+  }
+
+  &--green {
+    color: $secondary;
+  }
+
+  &--white {
+    color:$white;
+  }
+
+  &--gray {
+    color: $gray-text;
+  }
+
+  &--left {
+    text-align: left;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--right {
+    text-align: right;
+  }
+}
+
+.subtitle {
+  color: $primary;
+  @include bodyBd;
+  @include font(20px);
+  text-transform: uppercase;
+
+  &--1 {
+    @include font(18px);
+    letter-spacing: rem(3px);
+
+    @include from(l) {
+      @include font(25px);
+    }
+  }
+
+  &--2 {
+    @include font(16px);
+
+    @include from(m) {
+      @include font(30px);
+    }
+
+    @include from(l) {
+      @include font(40px);
+    }
+  }
+
+  &--black {
+    color: $black;
+  }
+
+  &--purple {
+    color: $primary;
+  }
+
+  &--green {
+    color: $secondary;
+  }
+
+  &--white {
+    color:$white;
+  }
+
+  &--gray {
+    color: $gray-text;
+  }
+}
+
+.highlight {
+  color: $primary;
+  @include bodyBd;
+  letter-spacing: rem(2px);
+  text-transform: uppercase;
+  @include font(20px);
+  display: inline;
+  background: $secondary;
+  box-shadow: 10px 0 0 $secondary, -10px 0 0 $secondary;
+
+  @include from(l) {
+    @include font(36px);
+    letter-spacing: rem(3px);
+  }
+
+  &--1 {
+    @include font(16px);
+    letter-spacing: rem(3px);
+
+    @include from(m) {
+      @include font(20px);
+      letter-spacing: rem(4px);
+    }
+
+    @include from(l) {
+      @include font(24px);
+    }
+  }
+}

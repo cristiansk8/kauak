@@ -1,0 +1,37 @@
+// 1-UTILITIES
+@import 'utilities/variables';
+@import 'utilities/mixins';
+@import 'utilities/displays';
+@import 'utilities/animations';
+
+// 2-QUARKS
+@import 'quarks/typography';
+@import 'quarks/links';
+@import 'quarks/icons';
+
+// 3-ATOMS
+@import 'atoms/buttons';
+@import 'atoms/forms';
+@import 'atoms/images';
+@import 'atoms/brand';
+@import 'atoms/sections';
+
+// 4-MOLECULES
+@import 'molecules/header';
+@import 'molecules/menu';
+@import 'molecules/footer';
+@import 'molecules/hero-banner';
+@import 'molecules/featured-cards';
+@import 'molecules/focus-tiles';
+@import 'molecules/project';
+@import 'molecules/news';
+@import 'molecules/clients';
+@import 'molecules/small-content';
+@import 'molecules/charges';
+@import 'molecules/team';
+
+// 5-PAGES
+@import 'pages/home';
+
+// 6-VENDORS
+@import 'vendors/slick/slick';

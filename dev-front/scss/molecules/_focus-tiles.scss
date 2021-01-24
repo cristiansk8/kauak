@@ -1,0 +1,42 @@
+.focus-tiles {
+  background-color: $primary;
+  padding-bottom: rem(30px);
+
+  @include from(l) {
+    padding-bottom: rem(60px);
+  }
+
+  &__item {
+    margin-bottom: rem(25px);
+
+    @include from(l) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__caption {
+    padding-top: rem(20px);
+
+    .headline,
+    .body {
+      color: $white;
+      display: block;
+      text-align: center;
+    }
+  }
+
+  &__icon {
+    position: relative;
+    height: rem(150px);
+
+    img {
+      max-width: 40%;
+      height: auto;
+      @include center('both');
+
+      @include from(l) {
+        max-width: 60%;
+      }
+    }
+  }
+}
