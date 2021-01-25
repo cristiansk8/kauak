@@ -14,11 +14,11 @@ $query = new WP_Query($args);
 if ($query->have_posts() ) : ?>
 <section class="news news--related">
   <header class="section__headline">
-    <h2 class="subtitle subtitle--1">
-      Depurando
+    <h2>
+      ¡Pilas con esto!
     </h2>
   </header>
-  <div class="container">
+  <div class="container padding-contendor-elemetos">
     <div class="row">
     <?php
     while($query->have_posts()):$query->the_post();

@@ -7,11 +7,11 @@ get_header();
 
 ?>
 
-	<div id="primary" class="container destacados">
-		<main id="main" class="site-main" role="main">
+	<div id="primary" class="container destacados padding-contendor-elemetos">
+		<section id="main" class="site-main" role="main">
 
-			<header class="site-main__header">
-				<h2>Medias, medias, medias</h2>
+			<header class="site-main__header section__headline">
+				<h2>¡Medias, medias, medias!</h2>
 			</header>
 
 			<?php
@@ -29,7 +29,7 @@ get_header();
 				echo do_shortcode( '[recent_products per_page="8" columns="4" category="destacado"]' );
 			?>
 
-		</main><!-- #main -->
+		</section><!-- #main -->
 </div>	<!-- #primary -->
 <?php
 get_template_part('includes/commons/hacemos');

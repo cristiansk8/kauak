@@ -1,10 +1,26 @@
 .site-header {
+  .navbar-default{
+    background-color: $kgris;
+    border-color: $kgris;
+  }
+  border-bottom-color:$kgris;
   width: 100%;
   z-index: 10;
+  background-color: $kgris;
 
   &__nav {
-    padding: rem(20px);
+    margin: 10px;
 
+  }
+  .navbar-nav{
+    float: right;
+    font-family: $ubuntub;
+    li{
+      a{
+        color: $white;
+        text-transform: uppercase;
+      }
+    }
   }
 }
 
@@ -38,6 +54,7 @@
   }
 
   .main-menu ul li a {
+    text-align: right;
     color: $primary;
   }
 }

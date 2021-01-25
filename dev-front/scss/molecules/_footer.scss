@@ -1,3 +1,9 @@
+.footer-row{
+  display: flex;
+  .widget_text{
+    width: 16.6%;
+  }
+}
 .main-footer {
   background-color: $primary-dark;
   padding-top: rem(30px);

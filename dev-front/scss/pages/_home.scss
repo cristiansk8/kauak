@@ -1,0 +1,13 @@
+#about{
+  .about__wrapper{
+    .col-md-6{
+      .about__wrapper-item{
+        display: flex;
+        padding: 3%;
+        p{
+          padding: 4%;
+        }
+      }
+    }
+  }
+}

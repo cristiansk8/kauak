@@ -1,3 +1,26 @@
+.padding-contendor-elemetos{
+  padding: 0 6rem;
+}
+.container-fluid{
+  padding: 0;
+}
+.woocommerce {
+  .columns-4{
+    @include from(l) {
+      li{
+        text-align: left !important;
+        width: 23.73913% !important;
+        margin-right: 1.347826% !important;
+      }
+    }
+    li{
+      font-size: 32px;
+      .add_to_cart_button{
+        display: none;
+      }
+    }
+  }
+}
 .section {
 
   &__headline {
@@ -8,6 +31,9 @@
 
     @include from(l) {
       padding: rem(63px) 0 rem(50px);
+    }
+    h2{
+      text-transform: uppercase;
     }
   }
 

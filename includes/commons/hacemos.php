@@ -1,5 +1,5 @@
 <section id="about">
-  <header class="site-main__header">
+  <header class="site-main__header section__headline">
     <h2>Sobre nuestras medias</h2>
   </header>
   <div class="container-fluid about__wrapper">
